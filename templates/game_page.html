@@ -1,0 +1,41 @@
+{% extends 'layout.html' %}
+
+{%  block head %}
+{% endblock %}
+
+{% block body_class %}game_body{% endblock %}
+
+{% block body %}
+<form action="/game" method="post">
+    <button type="submit" class="answer" id="top" data-statement="{{ statements[order_top][4] }}">{{ statements[order_top][2] }}</button>
+</form>
+<form action="/game" method="post">
+    <button type="submit" class="answer" id="bottom" data-statement="{{ statements[order_bottom][4] }}">{{ statements[order_bottom][2] }}</button>
+</form>
+<div id="circle">
+    <div id="score">{{ score }}</div>
+</div>
+<script>
+    document.getElementById('top').addEventListener('click', function() {
+        var statement = this.getAttribute('data-statement') === 'True';
+        if (statement) {
+            this.style.color = 'rgb(35, 101, 51)' ;
+        } else {
+            this.style.color = 'rgb(186, 0, 0)' ;
+        }
+    });
+
+    document.getElementById('bottom').addEventListener('click', function() {
+        var statement = this.getAttribute('data-statement') === 'True';
+        if (statement) {
+            this.style.color = 'rgb(35, 101, 51)' ;
+        } else {
+            this.style.color = 'rgb(186, 0, 0)' ;
+        }
+    });
+
+    setTimeout(function() {
+            document.getElementById(buttonClicked + 'Form').submit();
+        }, 50000);
+</script>
+{% endblock %}

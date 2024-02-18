@@ -1,0 +1,68 @@
+.answer {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 2.4vw;
+  font-weight: bold;
+  padding: 0;
+  width: auto;  /* Adjust the width to auto */
+}
+
+#top {
+  position: absolute;
+  top: 22%;
+  left: 0;
+  width: 100%;
+  height: auto;  /* Set height to auto */
+  z-index: 10;
+}
+
+#bottom {
+  position: absolute;
+  top: 73%;
+  left: 0;
+  width: 100%;
+  height: auto;  /* Set height to auto */
+  z-index: 10;
+}
+
+.game_body::before, .game_body::after {
+  content: "";
+  position: absolute;
+  top: 49%;
+  height: 2%;
+  background: white;
+}
+
+.game_body::before {
+  left: 0;
+  width: calc(44%); 
+}
+
+.game_body::after {
+  right: 0;
+  width: calc(44%); 
+}
+
+#circle {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8vw;
+  height: 8vw;
+  background: white;
+  border-radius: 50%;
+}
+
+#score {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.5rem; /* adjust as needed */
+  color: #1f1f20; /* adjust as needed */
+  font-weight: bold;
+}

@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+
+{%  block head %}
+<h1 id="title">Spot the fake</h1>
+{% endblock %}
+
+{% block body_class %}start_body{% endblock %}
+
+{% block body %}
+<h2 id="intro">
+    Embark on the challenge! Unravel truth from deceit in everyday myths, fabricated photos, famous quotes, fake news articles, and AI-generated social media profiles. Your goal: test your ability to distinguish reality from falsehood and see how well you fare in a world where discerning fact from fake is a vital skill.
+</h2>
+<form action="/game" method="get">
+    <button type="submit" class="circle_button" id="start_button"></button>
+</form>
+<form action="/stats" method="get">
+    <button type="submit" class="circle_button" id="stats_button"></button>
+</form>
+<h4 class="footer">Made by <a href="https://github.com/Specialist717" target="_blank" class="plain_link"> https://github.com/Specialist717</a></h4>
+{% endblock %}

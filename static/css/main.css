@@ -1,0 +1,7 @@
+body{
+  background: #1f1f20 url(../images/background.png) repeat;
+  background-size: 4.2%; 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.75rem;
+  color: #fff;
+}

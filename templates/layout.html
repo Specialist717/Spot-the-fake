@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/start_page.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/game_page.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stats_page.css')}}">
+    {%  block head %}{% endblock %}
+</head>
+<body class="{% block body_class %}{% endblock %}">
+    {%  block body %}{% endblock %}
+</body>
+</html>
