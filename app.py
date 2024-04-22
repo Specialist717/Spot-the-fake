@@ -35,13 +35,13 @@ def game():
         order_top, order_bottom = statment_order()
         return render_template('game_page.html', score=score, statements = statements, order_top = order_top, order_bottom = order_bottom)
     elif request.method == 'POST':
-        if 'top' in request.form and bool(statements[order_top][4]) == True or 'bottom' in request.form and bool(statements[order_bottom][4]) == True:
-            score += 1
+        if request.form.get('submit') == 'True':
+            score = score + 1
         else:
             score = 0
         order_top, order_bottom = statment_order()
         statements = picking_statements(true_statements, false_statements)
-    return render_template('game_page.html', score=score, statements = statements, order_top = order_top, order_bottom = order_bottom)
+    return render_template('game_page.html', score = score, statements = statements, order_top = order_top, order_bottom = order_bottom)
 
 @app.route('/stats', methods=['GET'])
 def stats():

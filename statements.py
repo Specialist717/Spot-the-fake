@@ -2,6 +2,7 @@
 # dupa
 
 true_statements = [
+    [1, "myth", "The Earth is approximately 4.5 billion years old.", "https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna", True],
     [2, "myth", "Honey never spoils; archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible.", "https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna", True],
     [3, "myth", "A group of flamingos is called a 'flamboyance.'", "https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna", True],
     [4, "myth", "The shortest war in history was between Britain and Zanzibar on August 27, 1896, lasting only 38 minutes.", "https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna", True],
