@@ -2,6 +2,8 @@
 
 Spot The Fake is an engaging web-based game that challenges players to discern the truth from a sea of falsehoods. The game presents players with a series of statements, and their task is to determine whether each statement is true or false.
 
+https://github.com/Specialist717/Spot-the-fake/assets/117452469/19fe68cf-fbd9-48dc-9e33-8a89ae8eb575
+
 ### Technologies Used
 This project is built with Python and Flask, a lightweight and powerful web framework that is a joy to use. Flask's simplicity and flexibility allow it to adapt to projects of all sizes, and it has been a perfect fit for this game.
 
@@ -13,15 +15,6 @@ JavaScript is used to enhance the interactivity of the game, providing immediate
 In an era of information overload, the ability to distinguish fact from fiction has never been more important. Spot The Fake not only provides a fun and engaging way to pass the time, but also helps to sharpen this critical skill.
 
 Whether you're a trivia buff, a fan of brain teasers, or just someone looking for a fun way to challenge yourself, Spot The Fake is the game for you. So why wait? Jump in and see if you can spot the fake!
-
-
-## Little demonstation
-
-<p align="center">
-  <img alt="Starting screen" src="./showcase pictures/StartScreen.png" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Good answe" src="./showcase pictures/GoodAnswer.png" width="45%">
-</p>
 
 ## Project Structure
 
