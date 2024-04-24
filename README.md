@@ -1,6 +1,6 @@
 # Spot The Fake
 
-Spot The Fake is an engaging web-based game that challenges players to discern the truth from a sea of falsehoods. The game presents players with a series of statements, and their task is to determine whether each statement is true or false.
+Spot The Fake is an web-based game that challenges players to discern the truth from a sea of falsehoods. The game presents players with a series of statements, and their task is to determine whether each statement is true or false.
 
 https://github.com/Specialist717/Spot-the-fake/assets/117452469/19fe68cf-fbd9-48dc-9e33-8a89ae8eb575
 
